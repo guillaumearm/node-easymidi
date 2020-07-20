@@ -1,5 +1,5 @@
 {
-  "name": "easymidi",
+  "name": "@guillaumearm/easymidi",
   "version": "2.0.1",
   "description": "Simple event-based MIDI messaging",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dinchak/node-easymidi.git"
+    "url": "https://github.com/guillaumearm/node-easymidi.git"
   },
   "keywords": [
     "midi"
@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dinchak/node-easymidi/issues"
+    "url": "https://github.com/guillaumearm/node-easymidi/issues"
   },
-  "homepage": "https://github.com/dinchak/node-easymidi",
+  "homepage": "https://github.com/guillaumearm/node-easymidi",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
