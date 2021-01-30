@@ -1,38 +1,38 @@
 import { EventEmitter } from "events";
 
-export type Channel = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15;
+export type Channel = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15;
 
 export interface Note {
   note: number;
   velocity: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface PolyAfterTouch {
   note: number;
   pressure: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface ControlChange {
   controller: number;
   value: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface Program {
   number: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface ChannelAfterTouch {
   pressure: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface Pitch {
   value: number;
-  channel: Channel;
+  channel?: Channel;
 }
 
 export interface Position {
